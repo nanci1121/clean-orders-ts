@@ -1,0 +1,11 @@
+Aquí tienes pasos de solución de problemas para VSCode:
+
+   1. Asegúrate de que VSCode use la versión de TypeScript del espacio de trabajo: Abre un archivo .ts, haz clic en "TypeScript" en la barra de estado inferior y
+       selecciona "Usar versión del espacio de trabajo".
+   2. Reinicia el servidor de lenguaje TypeScript (de nuevo): Ctrl + Shift + P (o Cmd + Shift + P) y selecciona "TypeScript: Restart TS Server".
+   3. Verifica extensiones en conflicto: Deshabilita temporalmente extensiones que puedan interferir con la resolución de módulos o servicios de lenguaje
+      TypeScript. Reinicia VSCode después.
+   4. Borra la caché de VSCode (más drástico): Cierra VSCode, ve a tu directorio de datos de usuario (Windows: %APPDATA%\Code, macOS: ~/Library/Application 
+      Support/Code, Linux: ~/.config/Code) y elimina las carpetas CachedData y Local Storage. Reabre VSCode.
+   5. Limpia `node_modules` y reinstala: Cierra VSCode, ejecuta rm -rf node_modules, npm cache clean --force y npm install en la raíz del proyecto. Reabre
+      VSCode.

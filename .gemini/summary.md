@@ -1,0 +1,1 @@
+Se ha resuelto el error en `tests/domain/money.spec.ts`. El problema se debía a la resolución de módulos con los alias de ruta (`@domain`). Para solucionarlo, se modificaron las importaciones en `money.spec.ts` para usar rutas relativas en lugar de los alias. Después de este cambio, se ejecutaron las pruebas y todas pasaron exitosamente.
