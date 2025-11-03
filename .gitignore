@@ -1,0 +1,19 @@
+# Dependencias
+/node_modules
+
+# Archivos de compilación
+/dist
+/build
+
+# Archivos de logs
+*.log
+
+# Variables de entorno
+.env
+
+# Archivos de sistema operativo
+.DS_Store
+
+# Carpetas de editores o herramientas específicas
+.claude/
+.gemini/
