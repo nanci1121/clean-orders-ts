@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { Money } from '@domain/value-objects/money'
-import { Currency } from '@domain/value-objects/currency'
+import { Money } from '@domain/value-objects/money.js'
+import { Currency } from '@domain/value-objects/currency.js'
 
 describe('Money', () => {
   describe('construction', () => {

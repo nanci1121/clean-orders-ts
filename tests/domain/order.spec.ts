@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { Order } from '@domain/entities/order'
+import { Order } from '@domain/entities/order.js'
 import { SKU } from '@domain/value-objects/sku'
 import { Money } from '@domain/value-objects/money'
 import { Currency } from '@domain/value-objects/currency'

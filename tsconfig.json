@@ -26,8 +26,9 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "ignoreDeprecations": "6.0"
   },
-  "include": ["src/**/*.ts", "main.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*.ts", "main.ts"],
+  "exclude": ["node_modules", "dist" ]
 }
